@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# 素材下载缓存（tools/fetch_naiwa_assets.py 可重建）
+assets_raw/
+
+# 本机临时
+*.log
+smoke_out.log
+render_out/
+render_test_out/
+
+# 勿打包的发布 zip（走 Releases）
+奶蛙桌宠-win64.zip
+
+# 工具缓存
+.mimosa/
+.v2c/
+.video_agent/
